@@ -10,17 +10,13 @@
             description: 'Luka fisik mungkin sembuh, namun luka batin butuh perawatan. Tim psikolog klinis profesional kami siap mendampingi pemulihan kesehatan mental korban kekerasan hingga kembali berdaya dan percaya diri.'
         },
         {
-            title: 'BANTUAN HUKUM & KEADILAN',
-            description: 'Setiap warga negara berhak mendapatkan keadilan. Kami menyediakan pendampingan hukum gratis mulai dari pelaporan kepolisian, penyidikan, hingga proses pengadilan demi tegaknya kebenaran.'
+            title: 'KONSULTASI HUKUM',
+            description: 'Kami memberikan pendampingan mulai dari pelaporan ke pihak yang berwenang hingga proses peradilan demi tegaknya keadilan bagi korban.'
         },
         {
-            title: 'RUMAH AMAN (SHELTER)',
+            title: 'RUMAH SEMENTARA (SHELTER)',
             description: 'Keamanan Anda adalah prioritas utama. Kami menyediakan fasilitas penampungan sementara yang rahasia, aman, dan nyaman bagi korban yang nyawanya terancam, dengan pengawasan 24 jam.'
         },
-        {
-            title: 'PENCEGAHAN & EDUKASI',
-            description: 'Mencegah lebih baik daripada menangani. Bersama kita bangun kesadaran masyarakat Riau untuk memutus mata rantai kekerasan terhadap perempuan dan anak mulai dari lingkungan keluarga.'
-        }
     ],
     timer: null,
     next() {

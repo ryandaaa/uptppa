@@ -12,9 +12,9 @@
     <style>
         /* Turbo Progress Bar */
         .turbo-progress-bar {
-            background-color: #c2410c; /* Primary Color */
+            background-color: #1A6C3A; /* Primary Color */
             height: 4px;
-            box-shadow: 0 0 10px rgba(194, 65, 12, 0.7);
+            box-shadow: 0 0 10px rgba(26, 108, 58, 0.7);
         }
     </style>
     <script>
@@ -33,12 +33,22 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: "#c2410c",
-                        secondary: "#1e293b",
-                        tertiary: "#fdba74",
-                        quaternary: "#fff7ed",
-                        "background-light": "#F3F4F6",
-                        "background-dark": "#111827",
+                        primary: "#1A6C3A",
+                        "primary-dark": "#14552D",
+                        "primary-light": "#2F8E4C",
+                        secondary: "#F4C21A",
+                        "secondary-dark": "#D6A60E",
+                        tertiary: "#FFED8A",
+                        quaternary: "#F4F7F0", 
+                        accent: "#FFED8A",
+                        "background-light": "#F4F7F0",
+                        "background-dark": "#051f10",
+                        "card-light": "#FFFFFF",
+                        "card-dark": "#0a2e1a",
+                        "border-light": "#D9E2D2",
+                        "heading-text": "#0F3A21",
+                        "body-text": "#2E463A",
+                        "muted-text": "#6F887A",
                     },
                     fontFamily: {
                         display: ["Arial", "Helvetica", "sans-serif"],
@@ -56,7 +66,7 @@
             font-family: 'Arial', sans-serif;
         }
         .hero-gradient {
-            background: linear-gradient(135deg, #c2410c 0%, #7c2d12 100%);
+            background: linear-gradient(135deg, #1A6C3A 0%, #14552D 100%);
             position: relative;
             overflow: hidden;
         }

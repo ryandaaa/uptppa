@@ -4,8 +4,8 @@
     @php
         $structure = [
             'root' => [
-                'name' => 'SRI MISNELA DEWI, SKM',
-                'nip' => '19770725 200212 2 006',
+                'name' => 'SRI NISMALA DEWI, SKM',
+                'nip' => '19770725 200312 2 009',
                 'role' => 'KEPALA UPT PPA',
             ],
             'middle' => [
@@ -17,48 +17,36 @@
                 ],
                 [
                     'type' => 'kasubag',
-                    'role' => 'KASUBAG TATA USAHA',
+                    'role' => 'KEPALA SUB BAGIAN TATA USAHA',
                     'name' => 'KATERINA SUSANTI, SKM, M.Kes',
-                    'nip' => '19750620 200001 2 005',
+                    'nip' => '19750620 200003 2 005',
                     'children' => [
-                        ['role' => 'PENGOLAH DATA DAN INFORMASI'],
-                        ['role' => 'PENGADMINISTRASI PERKANTORAN'],
-                        ['role' => 'PENGADMINISTRASI PERKANTORAN', 'name' => 'MASNIARTI', 'nip' => '19770514 200801 2 022']
-                    ]
-                ],
-                 [
-                    'type' => 'operator',
-                    'role' => 'OPERATOR', 
-                    'children' => [
-                        ['role' => 'OPERATOR LAYANAN OPERASIONAL'],
-                        ['role' => 'OPERATOR LAYANAN OPERASIONAL'],
-                        ['role' => 'OPERATOR LAYANAN OPERASIONAL'],
+                        ['role' => 'PENGADMINISTRASI PERKANTORAN', 'name' => 'MASNIARTI', 'nip' => '19770514 200801 2 022'],
+                        ['role' => 'OPERATOR LAYANAN OPERASIONAL', 'name' => 'Jefrizon'],
+                        ['role' => 'OPERATOR LAYANAN OPERASIONAL', 'name' => 'Yogi Yogasuara'],
+                        ['role' => 'OPERATOR LAYANAN OPERASIONAL', 'name' => 'Habibul Akmal'],
                     ]
                 ]
             ],
             'bottom' => [
                 [
                     'role' => 'KEPALA SEKSI PENGADUAN',
-                    'name' => 'HENDRI SAMANTHA, S.IP, M.Si',
-                    'nip' => '19840406 200701 1 004',
+                    'name' => 'HENDRI SAMANTHA, S.IP, M.AP',
+                    'nip' => '19880406 200701 1 004',
                     'children' => [
-                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'YENITA RIZAL, SE., MH.', 'nip' => '19870630 198603 2 001'],
-                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'JUMITA, S.Sos', 'nip' => '19690710 199003 2 004'],
+                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'JUWITA, S.Sos', 'nip' => '19690710 199003 2 004'],
                          ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'ETTY HERWATI, S.Sos', 'nip' => '19701127 200701 2 003'],
-                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'RUSINILAWAIT, S.Sos', 'nip' => '19720420 199403 2 011'],
-                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => '...'],
+                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'RUSNILAWATI, S.Sos', 'nip' => '19720420 199403 2 001'],
                     ]
                 ],
                 [
                     'role' => 'KEPALA SEKSI TINDAK LANJUT',
                     'name' => 'IIN RAFIDA, S.Psi, MM',
-                    'nip' => '19810609 201102 2 001',
+                    'nip' => '19810309 201102 2 001',
                     'children' => [
-                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'SRI MARYATI, S.Psi', 'nip' => '19810808 200701 2 005'],
-                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'RAJA ZALIA GUSTIARA, S.Psi', 'nip' => '19880819 201503 2 004'],
-                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'MEMI SAFITRI ISMAIL, S.H', 'nip' => '19930322 202203 2 008'],
-                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'PUTRI NOVI SUWINDI, S.H', 'nip' => '19941112 202203 2 025'],
-                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => '...'],
+                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'RAJA ZALIA GUSTIANA, S.Psi', 'nip' => '19880819 201503 2 004'],
+                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'WENI SAFITRI ISMAIL, S.H', 'nip' => '19930322 202203 2 008'],
+                         ['role' => 'PENATA KELOLA PEMBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK', 'name' => 'PUTRI NOVI DUWINDI, S.H', 'nip' => '19941112 202203 2 005'],
                     ]
                 ]
             ]

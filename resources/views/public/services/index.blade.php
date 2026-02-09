@@ -82,7 +82,7 @@
                                 Penampungan Sementara
                             </h4>
                             <p class="text-slate-600 dark:text-slate-400 text-sm relative z-10">
-                                Layanan rumah aman (shelter) bagi korban yang membutuhkan perlindungan fisik dari pelaku.
+                                Layanan rumah sementara (shelter) bagi korban yang membutuhkan perlindungan fisik dari pelaku.
                             </p>
                         </div>
 

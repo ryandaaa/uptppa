@@ -12,7 +12,7 @@
         <div class="container mx-auto px-6 md:px-12 text-center">
             <div class="border-4 border-slate-200 dark:border-slate-700 p-2 inline-block w-full max-w-3xl bg-yellow-50 dark:bg-slate-900 rounded-lg shadow-2xl">
                 <!-- Image with slight margin (handled by parent padding p-3) -->
-                <img alt="Layanan Pengaduan Infographic" class="w-full h-auto rounded shadow-sm" src="{{ asset('images/flyer-pengaduan-generated.png') }}"/>
+                <img alt="Layanan Pengaduan Infographic" class="w-full h-auto rounded shadow-sm" src="https://image2url.com/r2/default/images/1770640003958-77330c87-2ebf-41ce-b2db-cc3b38aa046a.jpeg"/>
                 
                 <div class="px-8 py-8 text-slate-800 dark:text-slate-100">
                     <h4 class="text-2xl font-black text-secondary mb-2 uppercase tracking-wide">Layanan Pengaduan</h4>

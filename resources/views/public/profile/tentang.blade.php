@@ -11,16 +11,13 @@
                 
                 <!-- Immersive Mobile Hero Image -->
                 <div class="w-[100vw] -mx-6 md:w-full md:mx-0 mb-8 relative h-64 md:h-96 overflow-hidden md:rounded-xl shadow-lg group">
-                    <img src="https://picsum.photos/800/600?grayscale" alt="Kantor UPT PPA Riau" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-                        <p class="text-white font-bold text-lg md:text-xl drop-shadow-md">Melayani dengan Hati, Melindungi dengan Pasti</p>
-                    </div>
+                    <img src="https://image2url.com/r2/default/images/1770640175651-5e59b628-587f-4747-bdb9-1d35943ad54f.jpeg" alt="Kantor UPT PPA Riau" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">                    </div>
                 </div>
                 
                 <div class="prose prose-slate max-w-none text-slate-700 dark:text-slate-300">
                     <p class="text-justify leading-relaxed mb-6">
-                        <strong class="text-primary">Unit Pelaksana Teknis Perlindungan Perempuan dan Anak (UPT PPA)</strong>
-                        dibentuk berdasarkan Peraturan Gubernur Riau Nomor 71 Tahun 2017 tentang Pembentukan Unit Pelaksana Teknis Perlindungan Perempuan dan Anak pada Dinas Pemberdayaan Perempuan dan Perlindungan Anak Provinsi Riau.
+                        Standar Layanan PPA dimaksudkan sebagai pedoman bagi UPTD PPA dalam menyelenggarakan fungsi layanan PPA kepada Penerima Manfaat secara cepat, akurat, komprehensif, dan terintegrasi.
                     </p>
                     <p class="text-justify leading-relaxed mb-6">
                         UPT PPA mempunyai tugas melaksanakan sebagian kegiatan teknis operasional dan/atau kegiatan teknis penunjang Dinas Pemberdayaan Perempuan dan Perlindungan Anak di bidang perlindungan perempuan dan anak.
@@ -41,10 +38,10 @@
                             Pelaksanaan penampungan sementara bagi korban yang membutuhkan perlindungan.
                         </li>
                         <li class="pl-2">
-                            Pelaksanaan mediasi dan pendampingan korban.
+                            Pelaksanaan mediasi
                         </li>
                         <li class="pl-2">
-                            Pelaksanaan urusan ketatausahaan, kepegawaian, keuangan, perlengkapan dan rumah tangga UPT.
+                            Pendampingan Korban
                         </li>
                     </ol>
                 </div>
