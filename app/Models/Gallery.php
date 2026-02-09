@@ -5,19 +5,20 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Post extends Model
+class Gallery extends Model
 {
     use HasFactory;
 
     protected $fillable = [
         'title',
         'slug',
-        'category',
-        'content',
-        'image',
+        'type',
+        'description',
+        'thumbnail',
+        'file_path',
+        'video_url',
         'is_published',
         'published_at',
-        'views_count',
     ];
 
     protected $casts = [
@@ -25,19 +26,23 @@ class Post extends Model
         'is_published' => 'boolean',
     ];
 
-    // Scopes can be added here for filtering
     public function scopePublished($query)
     {
         return $query->where('is_published', true);
     }
 
-    public function scopeNews($query)
+    public function scopeImages($query)
     {
-        return $query->where('category', 'news');
+        return $query->where('type', 'image');
     }
 
-    public function scopeArticles($query)
+    public function scopeVideos($query)
     {
-        return $query->where('category', 'article');
+        return $query->where('type', 'video');
+    }
+
+    public function scopeDocuments($query)
+    {
+        return $query->where('type', 'document');
     }
 }
