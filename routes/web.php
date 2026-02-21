@@ -2,6 +2,23 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicController;
+use App\Http\Controllers\Auth\LoginController;
+
+// Auth Routes
+Route::middleware('guest')->group(function () {
+    Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+    Route::post('/login', [LoginController::class, 'login'])->name('login.post');
+});
+
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout')->middleware('auth');
+
+// Admin Routes (Protected)
+Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
+    Route::get('/dashboard', [\App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
+    
+    Route::resource('posts', \App\Http\Controllers\Admin\PostController::class)->except(['show']);
+    Route::resource('gallery', \App\Http\Controllers\Admin\GalleryController::class)->except(['show']);
+});
 
 Route::name('public.')->group(function () {
     Route::get('/', [PublicController::class, 'index'])->name('home');

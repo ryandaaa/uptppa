@@ -29,7 +29,7 @@
 
                 <!-- Featured Image -->
                 <div class="mb-8">
-                    <img src="{{ $post->image }}" alt="{{ $post->title }}" class="w-full h-auto rounded shadow-sm">
+                    <img src="{{ $post->image_url }}" alt="{{ $post->title }}" class="w-full h-auto rounded shadow-sm">
                 </div>
 
                 <!-- Content Body -->

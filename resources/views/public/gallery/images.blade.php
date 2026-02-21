@@ -17,7 +17,7 @@
                             {{ $item->title }}
                         </a>
                         <div class="flex flex-col md:flex-row gap-6">
-                            <img src="{{ $item->thumbnail }}" alt="Gallery Thumbnail" class="w-full md:w-48 h-32 object-cover flex-shrink-0">
+                            <img src="{{ $item->thumbnail_url }}" alt="Gallery Thumbnail" class="w-full md:w-48 h-32 object-cover flex-shrink-0">
                             <div class="flex-grow">
                                 <p class="text-sm text-slate-600 dark:text-slate-300 text-justify leading-relaxed mb-4">
                                     {{ $item->description }}

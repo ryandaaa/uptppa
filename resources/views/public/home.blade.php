@@ -37,16 +37,13 @@
                 @foreach($latestArticles as $article)
                 <!-- Article Item -->
                 <div class="flex flex-col sm:flex-row gap-6 pb-8 border-b border-slate-200 dark:border-slate-700">
-                    <img alt="Thumbnail Artikel" class="w-full sm:w-48 h-32 object-cover border border-slate-300" src="{{ $article->image }}"/>
+                    <img alt="Thumbnail Artikel" class="w-full sm:w-48 h-32 object-cover border border-slate-300" src="{{ $article->image_url }}"/>
                     <div>
-                        <h4 class="font-bold text-lg mb-2 text-primary dark:text-quaternary hover:underline cursor-pointer">
-                            <a href="{{ route('public.publications.articles.show', $article->slug) }}">{{ $article->title }}</a>
-                        </h4>
-                        <div class="text-sm text-slate-600 dark:text-slate-400 mb-4 line-clamp-2">{!! Str::limit(strip_tags($article->content), 150) !!}</div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-xs text-slate-500 font-bold">{{ $article->published_at->format('Y/m/d H:i:s') }}</span>
-                            <a class="text-xs font-bold px-3 py-1 bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 hover:bg-primary hover:text-white transition" href="{{ route('public.publications.articles.show', $article->slug) }}">BACA</a>
-                        </div>
+                        <a href="{{ route('public.publications.articles.show', $article->slug) }}">
+                            <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-3 hover:text-primary transition leading-tight">{{ $article->title }}</h3>
+                        </a>
+                        <div class="text-sm text-slate-600 dark:text-slate-400 mb-4 line-clamp-2">{{ Str::limit(strip_tags($article->content), 150) }}</div>
+                        <a href="{{ route('public.publications.articles.show', $article->slug) }}" class="inline-flex items-center text-primary font-bold hover:underline">Baca Selengkapnya <span class="material-icons text-sm ml-1">arrow_forward</span></a>
                     </div>
                 </div>
                 @endforeach
@@ -67,7 +64,7 @@
                         <a href="{{ route('public.publications.news.show', $item->slug) }}">{{ $item->title }}</a>
                     </h4>
                     <div class="flex gap-4">
-                        <img alt="News thumb" class="w-16 h-16 object-cover flex-shrink-0" src="{{ $item->image }}"/>
+                        <img alt="News thumb" class="w-16 h-16 object-cover flex-shrink-0" src="{{ $item->image_url }}"/>
                         <div class="text-xs text-slate-600 dark:text-slate-400 leading-tight">{!! Str::limit(strip_tags($item->content), 80) !!}</div>
                     </div>
                     <div class="mt-4 flex justify-between items-center pt-3 border-t border-slate-200 dark:border-slate-700">

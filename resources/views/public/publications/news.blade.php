@@ -17,10 +17,10 @@
                             {{ $item->title }}
                         </a>
                         <div class="flex flex-col md:flex-row gap-6">
-                            <img src="{{ $item->image }}" alt="News Thumbnail" class="w-full md:w-48 h-32 object-cover flex-shrink-0">
+                            <img src="{{ $item->image_url }}" alt="News Thumbnail" class="w-full md:w-48 h-32 object-cover flex-shrink-0">
                             <div class="flex-grow">
                                 <div class="text-sm text-slate-600 dark:text-slate-300 text-justify leading-relaxed mb-4">
-                                    {!! Str::limit(strip_tags($item->content), 200) !!}
+                                    {{ Str::limit(strip_tags($item->content), 200) }}
                                 </div>
                             </div>
                         </div>

@@ -120,6 +120,11 @@
                         <ul class="absolute left-0 top-full bg-white text-slate-800 shadow-lg hidden group-hover:block min-w-[250px] z-50">
                             <li><a href="{{ route('public.services.index') }}" class="block px-4 py-2 hover:bg-primary hover:text-white transition">Layanan Pengaduan</a></li>
                             <li><a href="{{ route('public.services.lapak') }}" class="block px-4 py-2 hover:bg-primary hover:text-white transition">Lapak UPTPPA</a></li>
+                            @auth
+                                <li><a href="{{ url('/admin/dashboard') }}" class="block px-4 py-2 hover:bg-primary hover:text-white transition border-t border-slate-100">Admin Panel</a></li>
+                            @else
+                                <li><a href="{{ route('login') }}" class="block px-4 py-2 hover:bg-primary hover:text-white transition border-t border-slate-100">Login Admin</a></li>
+                            @endauth
                         </ul>
                     </li>
                     <li class="nav-item px-4 py-3 border-r border-white/20 group relative {{ request()->routeIs('public.publications.*') ? 'bg-white/20' : '' }}">
@@ -218,6 +223,11 @@
                         <ul x-show="expanded" x-collapse class="bg-slate-50 dark:bg-slate-800/50 py-2">
                             <li><a href="{{ route('public.services.index') }}" class="block pl-10 pr-6 py-2 text-sm text-slate-600 dark:text-slate-400 hover:text-primary">Layanan Pengaduan</a></li>
                             <li><a href="{{ route('public.services.lapak') }}" class="block pl-10 pr-6 py-2 text-sm text-slate-600 dark:text-slate-400 hover:text-primary">Lapak UPTPPA</a></li>
+                            @auth
+                                <li><a href="{{ url('/admin/dashboard') }}" class="block pl-10 pr-6 py-2 text-sm text-slate-600 dark:text-slate-400 hover:text-primary border-t border-slate-200 mt-1 pt-2">Admin Panel</a></li>
+                            @else
+                                <li><a href="{{ route('login') }}" class="block pl-10 pr-6 py-2 text-sm text-slate-600 dark:text-slate-400 hover:text-primary border-t border-slate-200 mt-1 pt-2">Login Admin</a></li>
+                            @endauth
                         </ul>
                     </li>
 

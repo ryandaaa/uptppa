@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class Post extends Model
 {
@@ -39,5 +40,18 @@ class Post extends Model
     public function scopeArticles($query)
     {
         return $query->where('category', 'article');
+    }
+
+    public function getImageUrlAttribute()
+    {
+        if (!$this->image) {
+            return asset('assets/images/placeholder.jpg'); // Adjust if you have a default
+        }
+        
+        if (Str::startsWith($this->image, ['http://', 'https://'])) {
+            return $this->image;
+        }
+
+        return asset('storage/' . $this->image);
     }
 }

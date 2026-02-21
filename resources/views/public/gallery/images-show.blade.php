@@ -27,8 +27,8 @@
                 </div>
 
                 <!-- Featured Image -->
-                <div class="mb-8">
-                    <img src="{{ $gallery->thumbnail }}" alt="{{ $gallery->title }}" class="w-full h-auto rounded shadow-sm">
+                <div class="mb-8 p-1 border-4 border-slate-100 dark:border-slate-800 rounded-lg shadow-md bg-white">
+                    <img src="{{ $gallery->thumbnail_url }}" alt="{{ $gallery->title }}" class="w-full max-h-[500px] object-cover rounded shadow-sm">
                 </div>
 
                 <!-- Content Body -->
@@ -37,11 +37,16 @@
                         {{ $gallery->description }}
                     </p>
                     
-                    <!-- Additional Images Grid (Simulated for now as DB only has one image per item) -->
-                    <!-- In a real app, you would have a separate GalleryImage model related to Gallery -->
-                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
-                         <img src="{{ $gallery->thumbnail }}" class="rounded shadow-sm">
-                    </div>
+                    <!-- Additional Images Grid -->
+                    @if(count($gallery->file_urls) > 0)
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
+                            @foreach($gallery->file_urls as $imgUrl)
+                                <a href="{{ $imgUrl }}" target="_blank" class="block aspect-video overflow-hidden rounded shadow-sm hover:opacity-90 transition border border-slate-200">
+                                    <img src="{{ $imgUrl }}" class="w-full h-full object-cover">
+                                </a>
+                            @endforeach
+                        </div>
+                    @endif
                 </div>
 
                 <!-- Share Buttons -->

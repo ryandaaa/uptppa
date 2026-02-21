@@ -15,7 +15,7 @@ return new class extends Migration
             $table->enum('type', ['image', 'video', 'document']); // Distinguish Type
             $table->text('description')->nullable();
             $table->string('thumbnail')->nullable();
-            $table->string('file_path')->nullable(); // For Documents
+            $table->json('file_path')->nullable(); // Changed to JSON for multiple images
             $table->string('video_url')->nullable(); // For Videos
             $table->boolean('is_published')->default(true);
             $table->dateTime('published_at')->nullable();
