@@ -141,7 +141,6 @@
                         <!-- Dropdown Menu -->
                         <ul class="absolute left-0 top-full bg-white text-slate-800 shadow-lg hidden group-hover:block min-w-[200px] z-50">
                             <li><a href="{{ route('public.gallery.images') }}" class="block px-4 py-2 hover:bg-primary hover:text-white transition">Gambar</a></li>
-                            <li><a href="{{ route('public.gallery.videos') }}" class="block px-4 py-2 hover:bg-primary hover:text-white transition">Video</a></li>
                             <li><a href="{{ route('public.gallery.materials') }}" class="block px-4 py-2 hover:bg-primary hover:text-white transition">Materi Edukasi</a></li>
                         </ul>
                     </li>
@@ -252,7 +251,6 @@
                         </button>
                         <ul x-show="expanded" x-collapse class="bg-slate-50 dark:bg-slate-800/50 py-2">
                             <li><a href="{{ route('public.gallery.images') }}" class="block pl-10 pr-6 py-2 text-sm text-slate-600 dark:text-slate-400 hover:text-primary">Gambar</a></li>
-                            <li><a href="{{ route('public.gallery.videos') }}" class="block pl-10 pr-6 py-2 text-sm text-slate-600 dark:text-slate-400 hover:text-primary">Video</a></li>
                             <li><a href="{{ route('public.gallery.materials') }}" class="block pl-10 pr-6 py-2 text-sm text-slate-600 dark:text-slate-400 hover:text-primary">Materi Edukasi</a></li>
                         </ul>
                     </li>

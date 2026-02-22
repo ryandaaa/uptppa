@@ -21,6 +21,7 @@
                     'name' => 'KATERINA SUSANTI, SKM, M.Kes',
                     'nip' => '19750620 200003 2 005',
                     'children' => [
+                        ['role' => 'ADMIN OPERASIONAL', 'name' => 'ARMI RAHMI'],
                         ['role' => 'PENGADMINISTRASI PERKANTORAN', 'name' => 'MASNIARTI', 'nip' => '19770514 200801 2 022'],
                         ['role' => 'OPERATOR LAYANAN OPERASIONAL', 'name' => 'Jefrizon'],
                         ['role' => 'OPERATOR LAYANAN OPERASIONAL', 'name' => 'Yogi Yogasuara'],

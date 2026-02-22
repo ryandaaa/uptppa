@@ -70,9 +70,6 @@ Route::name('public.')->group(function () {
 
         Route::get('/gambar', [PublicController::class, 'galleryImages'])->name('images');
         Route::get('/gambar/{slug}', [PublicController::class, 'galleryImagesShow'])->name('images.show');
-
-        Route::get('/video', [PublicController::class, 'galleryVideos'])->name('videos');
-        Route::get('/video/{slug}', [PublicController::class, 'galleryVideosShow'])->name('videos.show');
     });
 
     // These routes were moved out of the 'galeri' prefix group and renamed
