@@ -23,7 +23,7 @@
             <div class="flex flex-col gap-4 max-w-lg mx-auto">
                 
                 <!-- Button 1: Formulir (Blue) -->
-                <a href="#" class="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 py-4 px-6 flex items-center justify-center gap-3 group">
+                <a href="https://docs.google.com/document/d/1qVI0wSFw_S1iakKwX3AQKVwlGnHyjWhC/edit?usp=sharing&ouid=116726254109355339556&rtpof=true&sd=true" target="_blank" class="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 py-4 px-6 flex items-center justify-center gap-3 group">
                     <span class="material-icons text-2xl group-hover:scale-110 transition-transform">assignment</span>
                     <div class="text-left">
                         <span class="block text-base font-bold">Formulir Pengaduan Online</span>

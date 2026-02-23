@@ -30,11 +30,9 @@
     <div class="max-w-md w-full bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-100">
         <div class="p-8">
             <div class="flex justify-center flex-col items-center mb-8">
-                <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-riau-green text-white shadow-lg mb-4">
-                    <span class="material-symbols-outlined text-[32px]">shield_person</span>
-                </div>
+                <img src="https://bkd.riau.go.id/wp-content/uploads/2019/09/cropped-provinsi-riau-vector-logo.png" alt="Logo Riau" class="w-16 h-auto mb-4">
                 <h1 class="text-2xl font-bold font-display text-slate-900">UPT PPA</h1>
-                <p class="text-slate-500 text-sm mt-1">Sistem Informasi Admin Portal</p>
+                <p class="text-slate-600 text-xs font-medium mt-1 tracking-wide uppercase text-center">Unit Pelayanan Teknis Pelindungan Perempuan dan Anak</p>
             </div>
 
             @if ($errors->any())

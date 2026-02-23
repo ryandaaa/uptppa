@@ -12,12 +12,15 @@
                 <!-- Document Viewer Placeholder -->
                 <div class="mb-12">
                     <h3 class="font-bold text-lg mb-4 text-slate-800 dark:text-slate-200 uppercase">Maklumat Pelayanan</h3>
-                    <div class="w-full h-[500px] bg-slate-200 dark:bg-slate-700 flex items-center justify-center border-2 border-slate-300 dark:border-slate-600 rounded">
-                        <div class="text-center p-6">
-                            <span class="material-icons text-6xl text-slate-400 mb-4">description</span>
-                            <p class="text-slate-500 font-bold">Dokumen Maklumat Pelayanan</p>
-                            <p class="text-xs text-slate-400">(Image/PDF Viewer Placeholder)</p>
-                        </div>
+                    <div class="w-full h-[600px] rounded overflow-hidden border-2 border-slate-300 dark:border-slate-600">
+                        <iframe 
+                            src="https://drive.google.com/file/d/1aJgUg_LBdeEhNPuyJeeQBAzFXYE5txrT/preview" 
+                            width="100%" 
+                            height="100%" 
+                            allow="autoplay"
+                            style="border: 0;"
+                            loading="lazy">
+                        </iframe>
                     </div>
                 </div>
 
@@ -122,7 +125,7 @@
                         <h4 class="font-bold text-primary text-lg">SOP Penanganan Kasus</h4>
                         <p class="text-xs text-slate-600 dark:text-slate-400">Standar Operasional Prosedur Penanganan Kasus di UPT PPA</p>
                     </div>
-                    <a href="#" class="bg-primary hover:bg-orange-700 text-white font-bold py-2 px-6 rounded transition flex items-center gap-2">
+                    <a href="https://drive.google.com/file/d/13RBDznxkjEYgGH5-OHhfPLlS3J3Se0w2/view?usp=sharing" target="_blank" class="bg-primary hover:bg-orange-700 text-white font-bold py-2 px-6 rounded transition flex items-center gap-2">
                         <span class="material-icons text-sm">download</span> UNDUH SOP
                     </a>
                 </div>
